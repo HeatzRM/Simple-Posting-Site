@@ -31,4 +31,7 @@ Route::get('/about', 'PagesController@about');
 Route::get('/services', 'PagesController@services');
 
 
+//shortcut.. creates all the routes in the controller
+Route::resource('posts', 'PostsController');
+
 
